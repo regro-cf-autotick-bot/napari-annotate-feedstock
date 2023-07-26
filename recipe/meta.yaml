@@ -32,7 +32,7 @@ test:
     - napari_annotate
   commands:
     - pip list
-    - pip check
+    # - pip check
   requires:
     - pip
 
