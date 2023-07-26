@@ -20,8 +20,10 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
+    - magic-class
     - magicgui
     - napari
+    - napari-tools-menu
     - numpy
     - python >=3.8
     - scikit-image
@@ -32,7 +34,7 @@ test:
     - napari_annotate
   commands:
     - pip list
-    # - pip check
+    - pip check
   requires:
     - pip
 
