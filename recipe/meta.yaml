@@ -20,11 +20,8 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
-    - magic-class
     - magicgui
     - napari
-    - napari-plugin-engine >=0.1.4
-    - napari-tools-menu
     - numpy
     - python >=3.8
     - scikit-image
